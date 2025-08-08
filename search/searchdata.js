@@ -1,12 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: ".abdgimprstuw",
-  1: "w",
+  0: "adeglopstuw",
+  1: "luw",
   2: "a",
-  3: ".apw",
-  4: "agimruw",
-  5: "ab",
-  6: "dst"
+  3: "glow",
+  4: "depst"
 };
 
 var indexSectionNames =
@@ -14,10 +12,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "namespaces",
-  3: "files",
-  4: "functions",
-  5: "variables",
-  6: "properties"
+  3: "functions",
+  4: "properties"
 };
 
 var indexSectionLabels =
@@ -25,9 +21,7 @@ var indexSectionLabels =
   0: "Todos",
   1: "Clases",
   2: "Espacios de nombres",
-  3: "Archivos",
-  4: "Funciones",
-  5: "Variables",
-  6: "Propiedades"
+  3: "Funciones",
+  4: "Propiedades"
 };
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['if_0',['if',['../_program_8cs.html#a79a944c7f0e25196ca3c5a8638b919b9',1,'Program.cs']]]
+  ['obtienenum_0',['obtieneNum',['../class_api_ghost_doc_1_1_weather_forecast.html#a2d3ad7fd80acaccbdd4fac9f16b4052b',1,'ApiGhostDoc::WeatherForecast']]]
 ];

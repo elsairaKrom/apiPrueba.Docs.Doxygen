@@ -1,0 +1,52 @@
+\doxysection{Referencia de la clase Authorization.\+Controllers.\+v1.\+login\+Controller}
+\hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{}\label{class_authorization_1_1_controllers_1_1v1_1_1login_controller}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
+
+
+Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request.  
+
+
+Diagrama de herencia de Authorization.\+Controllers.\+v1.\+login\+Controller\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_authorization_1_1_controllers_1_1v1_1_1login_controller}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829}\label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829} 
+{\bfseries login\+Controller} (IOwin\+Controller\+Adapter IOwin\+Controller\+Adapter\+\_\+, ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$ logger\+\_\+)
+\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4}{login}} (\mbox{[}From\+Body()\mbox{]} \mbox{\hyperlink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}} user\+Login\+\_\+)
+\begin{DoxyCompactList}\small\item\em Genera un token valido para autentificar el usuario que inicia sesión. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request. 
+
+\label{doc-func-members}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_doc-func-members}
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!login@{login}}
+\index{login@{login}!Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4} 
+async Task$<$ IAction\+Result $>$ Authorization.\+Controllers.\+v1.\+login\+Controller.\+login (\begin{DoxyParamCaption}\item[{\mbox{[}\+From\+Body()\mbox{]} \mbox{\hyperlink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}}}]{user\+Login\+\_\+}{}\end{DoxyParamCaption})}
+
+
+
+Genera un token valido para autentificar el usuario que inicia sesión. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user\+Login\+\_\+} & modelo del tipo \doxylink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login} en formato json requerido\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+
+\end{DoxyReturn}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Singularity\+Repo/projects/singularity.\+hyb/\+Api\+\_\+test/dev/\+Api/\+Controllers/v1/login\+Controller.\+cs\end{DoxyCompactItemize}

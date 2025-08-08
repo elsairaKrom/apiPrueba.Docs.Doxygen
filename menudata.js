@@ -33,10 +33,4 @@ var menudata={children:[
 {text:"Miembros de clases",url:"functions.html",children:[
 {text:"Todos",url:"functions.html"},
 {text:"Funciones",url:"functions_func.html"},
-{text:"Propiedades",url:"functions_prop.html"}]}]},
-{text:"Archivos",url:"files.html",children:[
-{text:"Lista de archivos",url:"files.html"},
-{text:"Miembros de los archivos",url:"globals.html",children:[
-{text:"Todos",url:"globals.html"},
-{text:"Funciones",url:"globals_func.html"},
-{text:"Variables",url:"globals_vars.html"}]}]}]}
+{text:"Propiedades",url:"functions_prop.html"}]}]}]}

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['temperaturec_0',['TemperatureC',['../classapiprueba_1_1_weather_forecast.html#a566f54b20bee0e6bd496f67dcdea1ce3',1,'apiprueba::WeatherForecast']]],
-  ['temperaturef_1',['TemperatureF',['../classapiprueba_1_1_weather_forecast.html#a730ee9ee72f02f40214733ee8f2b5567',1,'apiprueba::WeatherForecast']]]
+  ['weatherforecast_0',['WeatherForecast',['../class_api_ghost_doc_1_1_weather_forecast.html',1,'ApiGhostDoc.WeatherForecast'],['../classapiprueba_1_1_weather_forecast.html',1,'apiprueba.WeatherForecast'],['../class_authorization_1_1_models_1_1v1_1_1_weather_forecast.html',1,'Authorization.Models.v1.WeatherForecast']]],
+  ['weatherforecastcontroller_1',['WeatherForecastController',['../class_api_ghost_doc_1_1_controllers_1_1_weather_forecast_controller.html',1,'ApiGhostDoc.Controllers.WeatherForecastController'],['../classapiprueba_1_1_controllers_1_1_weather_forecast_controller.html',1,'apiprueba.Controllers.WeatherForecastController'],['../class_authorization_1_1_controllers_1_1v1_1_1_weather_forecast_controller.html',1,'Authorization.Controllers.v1.WeatherForecastController'],['../class_api_ghost_doc_1_1_controllers_1_1_weather_forecast_controller.html#ac056a971289a82adf2658c665a591178',1,'ApiGhostDoc.Controllers.WeatherForecastController.WeatherForecastController()'],['../classapiprueba_1_1_controllers_1_1_weather_forecast_controller.html#a614208497ec6e9ff1497988b7ce77026',1,'apiprueba.Controllers.WeatherForecastController.WeatherForecastController()']]]
 ];

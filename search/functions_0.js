@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addcontrollers_0',['AddControllers',['../_program_8cs.html#abc3694a0e15618f2499e5a540264f833',1,'Program.cs']]],
-  ['addendpointsapiexplorer_1',['AddEndpointsApiExplorer',['../_program_8cs.html#a0d7859f9cad50e8e9fdf015100780e07',1,'Program.cs']]],
-  ['addswaggergen_2',['AddSwaggerGen',['../_program_8cs.html#ae0ce43c019a5621d731d0c622c793644',1,'Program.cs']]]
+  ['get_0',['Get',['../class_authorization_1_1_controllers_1_1v1_1_1_weather_forecast_controller.html#a6e65f4f5ed4589f723fea455f8877333',1,'Authorization.Controllers.v1.WeatherForecastController.Get()'],['../class_api_ghost_doc_1_1_controllers_1_1_weather_forecast_controller.html#a4274cabf85945531c98cff5121c3ee99',1,'ApiGhostDoc.Controllers.WeatherForecastController.Get()'],['../classapiprueba_1_1_controllers_1_1_weather_forecast_controller.html#aa2c67de636097aaacf0a6ca77ed7269f',1,'apiprueba.Controllers.WeatherForecastController.Get()']]],
+  ['gethello_1',['getHello',['../class_authorization_1_1_controllers_1_1v1_1_1_weather_forecast_controller.html#a193313ea2fc1c1a3894b460211dda576',1,'Authorization::Controllers::v1::WeatherForecastController']]],
+  ['geturl_2',['getUrl',['../class_authorization_1_1_controllers_1_1v1_1_1_weather_forecast_controller.html#a98764e0ed68b329d942487d22234f149',1,'Authorization::Controllers::v1::WeatherForecastController']]]
 ];

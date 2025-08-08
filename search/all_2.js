@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['builder_0',['builder',['../_program_8cs.html#a2f78352277081c620fd4cf92a5ce15e5',1,'Program.cs']]]
+  ['email_0',['email',['../class_authorization_1_1_models_1_1v1_1_1_user_login.html#a541c0ccd2d601add527f967fcebaf926',1,'Authorization::Models::v1::UserLogin']]]
 ];

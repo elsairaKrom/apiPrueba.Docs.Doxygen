@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "DocTestDoxy", "index.html", [
+  [ "DoxyGen Con Github", "index.html", [
     [ "Paquetes", "namespaces.html", [
       [ "Lista de paquetes", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -37,21 +37,13 @@ var NAVTREE =
         [ "Funciones", "functions_func.html", null ],
         [ "Propiedades", "functions_prop.html", null ]
       ] ]
-    ] ],
-    [ "Archivos", "files.html", [
-      [ "Lista de archivos", "files.html", "files_dup" ],
-      [ "Miembros de los archivos", "globals.html", [
-        [ "Todos", "globals.html", null ],
-        [ "Funciones", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

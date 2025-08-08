@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['summary_0',['Summary',['../classapiprueba_1_1_weather_forecast.html#a340ef59e56efd590b3193062ffc657de',1,'apiprueba::WeatherForecast']]]
+  ['email_0',['email',['../class_authorization_1_1_models_1_1v1_1_1_user_login.html#a541c0ccd2d601add527f967fcebaf926',1,'Authorization::Models::v1::UserLogin']]]
 ];
