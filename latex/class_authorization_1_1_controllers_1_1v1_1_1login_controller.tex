@@ -2,7 +2,7 @@
 \hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{}\label{class_authorization_1_1_controllers_1_1v1_1_1login_controller}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
 
 
-Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request.  
+Este es Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request.  
 
 
 Diagrama de herencia de Authorization.\+Controllers.\+v1.\+login\+Controller\begin{figure}[H]
@@ -14,15 +14,38 @@ Diagrama de herencia de Authorization.\+Controllers.\+v1.\+login\+Controller\beg
 \doxysubsubsection*{Métodos públicos}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829}\label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829} 
-{\bfseries login\+Controller} (IOwin\+Controller\+Adapter IOwin\+Controller\+Adapter\+\_\+, ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$ logger\+\_\+)
-\item 
+\mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829}{login\+Controller}} (IOwin\+Controller\+Adapter IOwin\+Controller\+Adapter\+\_\+, ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$ logger\+\_\+)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller} class. \end{DoxyCompactList}\item 
 async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4}{login}} (\mbox{[}From\+Body()\mbox{]} \mbox{\hyperlink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}} user\+Login\+\_\+)
-\begin{DoxyCompactList}\small\item\em Genera un token valido para autentificar el usuario que inicia sesión. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Genera un token valido para autentificar el usuario que inicia sesión, este token se debe enviar en el header de las peticiones que requieran autorización. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Descripción detallada}
-Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request. 
+Este es Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request. 
+
+\label{doc-constructors}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_doc-constructors}
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!loginController@{loginController}}
+\index{loginController@{loginController}!Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
+\doxysubsubsection{\texorpdfstring{loginController()}{loginController()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829} 
+Authorization.\+Controllers.\+v1.\+login\+Controller.\+login\+Controller (\begin{DoxyParamCaption}\item[{IOwin\+Controller\+Adapter}]{IOwin\+Controller\+Adapter\+\_\+}{, }\item[{ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$}]{logger\+\_\+}{}\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \doxylink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller} class. 
+
+This program tests each method and operator, and is intended to be run after any non-\/trivial maintenance has been performed on the Point class. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em IOwin\+Controller\+Adapter\+\_\+} & The i owin controller adapter.\\
+\hline
+{\em logger\+\_\+} & The logger.\\
+\hline
+\end{DoxyParams}
+
 
 \label{doc-func-members}
 \Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_doc-func-members}
@@ -35,7 +58,7 @@ async Task$<$ IAction\+Result $>$ Authorization.\+Controllers.\+v1.\+login\+Cont
 
 
 
-Genera un token valido para autentificar el usuario que inicia sesión. 
+Genera un token valido para autentificar el usuario que inicia sesión, este token se debe enviar en el header de las peticiones que requieran autorización. 
 
 
 \begin{DoxyParams}{Parámetros}
@@ -43,10 +66,31 @@ Genera un token valido para autentificar el usuario que inicia sesión.
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Devuelve}
+posibles códigos de estatus del request \tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\cellcolor{\tableheadbgcolor}\textbf{ Código }&\cellcolor{\tableheadbgcolor}\textbf{ Descripción  }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\cellcolor{\tableheadbgcolor}\textbf{ Código }&\cellcolor{\tableheadbgcolor}\textbf{ Descripción  }\\\cline{1-2}
+\endhead
+200 &Token de autentificación de usuario  \\\cline{1-2}
+401 &Credenciales incorrectas  \\\cline{1-2}
+400 &{\itshape user\+Login\+\_\+}  es incorrecto o mal formado  \\\cline{1-2}
+500 &Error interno en el proceso  \\\cline{1-2}
+\end{longtabu}
 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ c\ =\ \ Math.Add(4,5);}
+\DoxyCodeLine{\textcolor{keywordflow}{if}\ (c\ >\ 10)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{Console.WriteLine(c);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
 \end{DoxyReturn}
-
-
-La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
-\item 
-C\+:/\+Singularity\+Repo/projects/singularity.\+hyb/\+Api\+\_\+test/dev/\+Api/\+Controllers/v1/login\+Controller.\+cs\end{DoxyCompactItemize}
