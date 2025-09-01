@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['date_0',['Date',['../class_api_ghost_doc_1_1_weather_forecast.html#acdfb7752c39b645908c6abcdee12feda',1,'ApiGhostDoc.WeatherForecast.Date'],['../classapiprueba_1_1_weather_forecast.html#a68cedbdb29e3a33d3019f2ca19b0fc45',1,'apiprueba.WeatherForecast.Date']]]
+  ['email_0',['Email',['../struct_authorization_1_1_models_1_1v1_1_1_user_login.html#a96bd1ca67483638540f63d30d89f95ea',1,'Authorization::Models::v1::UserLogin']]]
 ];

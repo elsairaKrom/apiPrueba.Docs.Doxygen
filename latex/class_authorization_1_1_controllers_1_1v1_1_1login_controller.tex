@@ -1,10 +1,5 @@
 \doxysection{Referencia de la clase Authorization.\+Controllers.\+v1.\+login\+Controller}
 \hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{}\label{class_authorization_1_1_controllers_1_1v1_1_1login_controller}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
-
-
-Este es Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request.  
-
-
 Diagrama de herencia de Authorization.\+Controllers.\+v1.\+login\+Controller\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -14,35 +9,34 @@ Diagrama de herencia de Authorization.\+Controllers.\+v1.\+login\+Controller\beg
 \doxysubsubsection*{Métodos públicos}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829}{login\+Controller}} (IOwin\+Controller\+Adapter IOwin\+Controller\+Adapter\+\_\+, ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$ logger\+\_\+)
-\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller} class. \end{DoxyCompactList}\item 
-async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4}{login}} (\mbox{[}From\+Body()\mbox{]} \mbox{\hyperlink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}} user\+Login\+\_\+)
-\begin{DoxyCompactList}\small\item\em Genera un token valido para autentificar el usuario que inicia sesión, este token se debe enviar en el header de las peticiones que requieran autorización. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ad163492aaaef3d9f71727dff45dbb8bb}{login\+Controller}} (IOwin\+Controller\+Adapter owin\+Controller\+Adapter, \mbox{\hyperlink{interface_authorization_1_1_services_1_1_i_jwt_settings_provider}{IJwt\+Settings\+Provider}} \+\_\+jwt\+Settings, ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$ logger)
+\begin{DoxyCompactList}\small\item\em Constructor del controlador \doxylink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller} . \end{DoxyCompactList}\item 
+async Task$<$ IAction\+Result $>$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a899aba696a910e17e7204b553f39c7e8}{Login}} (\mbox{[}From\+Body\mbox{]} \mbox{\hyperlink{struct_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}} user\+Login\+\_\+)
+\begin{DoxyCompactList}\small\item\em Genera un token valido para autentificar el usuario que inicia sesión, este token se debe enviar en el header de las peticiones que requieran autorización. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a109753c44d0ba33d98406875b674e3c0}{get\+Profile}} (IHttp\+Context\+Accessor context\+Accessor\+\_\+)
+\begin{DoxyCompactList}\small\item\em Obtiene el perfil del usuario. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-
-\doxysubsection{Descripción detallada}
-Este es Controlador para autentificar, se necesita el api key para poder consumirlo que se envia atravez del header del request. 
 
 \label{doc-constructors}
 \Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_doc-constructors}
 \doxysubsection{Documentación de constructores y destructores}
-\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!loginController@{loginController}}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ad163492aaaef3d9f71727dff45dbb8bb}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!loginController@{loginController}}
 \index{loginController@{loginController}!Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
 \doxysubsubsection{\texorpdfstring{loginController()}{loginController()}}
-{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a9ff94ed4e6cb60f8f0c6e9210166c829} 
-Authorization.\+Controllers.\+v1.\+login\+Controller.\+login\+Controller (\begin{DoxyParamCaption}\item[{IOwin\+Controller\+Adapter}]{IOwin\+Controller\+Adapter\+\_\+}{, }\item[{ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$}]{logger\+\_\+}{}\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ad163492aaaef3d9f71727dff45dbb8bb} 
+Authorization.\+Controllers.\+v1.\+login\+Controller.\+login\+Controller (\begin{DoxyParamCaption}\item[{IOwin\+Controller\+Adapter}]{owin\+Controller\+Adapter}{, }\item[{\mbox{\hyperlink{interface_authorization_1_1_services_1_1_i_jwt_settings_provider}{IJwt\+Settings\+Provider}}}]{\+\_\+jwt\+Settings}{, }\item[{ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$}]{logger}{}\end{DoxyParamCaption})}
 
 
 
-Initializes a new instance of the \doxylink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller} class. 
-
-This program tests each method and operator, and is intended to be run after any non-\/trivial maintenance has been performed on the Point class. 
+Constructor del controlador \doxylink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller} . 
 
 
 \begin{DoxyParams}{Parámetros}
-{\em IOwin\+Controller\+Adapter\+\_\+} & The i owin controller adapter.\\
+{\em owin\+Controller\+Adapter} & The owin controller adapter.\\
 \hline
-{\em logger\+\_\+} & The logger.\\
+{\em \+\_\+jwt\+Settings} & The JWT settings.\\
+\hline
+{\em logger} & The logger.\\
 \hline
 \end{DoxyParams}
 
@@ -50,11 +44,29 @@ This program tests each method and operator, and is intended to be run after any
 \label{doc-func-members}
 \Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_doc-func-members}
 \doxysubsection{Documentación de funciones miembro}
-\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!login@{login}}
-\index{login@{login}!Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
-\doxysubsubsection{\texorpdfstring{login()}{login()}}
-{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_ace9c6e24a554cc4e8aceae6723ddcff4} 
-async Task$<$ IAction\+Result $>$ Authorization.\+Controllers.\+v1.\+login\+Controller.\+login (\begin{DoxyParamCaption}\item[{\mbox{[}\+From\+Body()\mbox{]} \mbox{\hyperlink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}}}]{user\+Login\+\_\+}{}\end{DoxyParamCaption})}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a109753c44d0ba33d98406875b674e3c0}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!getProfile@{getProfile}}
+\index{getProfile@{getProfile}!Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
+\doxysubsubsection{\texorpdfstring{getProfile()}{getProfile()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a109753c44d0ba33d98406875b674e3c0} 
+IAction\+Result Authorization.\+Controllers.\+v1.\+login\+Controller.\+get\+Profile (\begin{DoxyParamCaption}\item[{IHttp\+Context\+Accessor}]{context\+Accessor\+\_\+}{}\end{DoxyParamCaption})}
+
+
+
+Obtiene el perfil del usuario. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em context\+Accessor\+\_\+} & El contexto de la sesion.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+
+\end{DoxyReturn}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a899aba696a910e17e7204b553f39c7e8}\index{Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}!Login@{Login}}
+\index{Login@{Login}!Authorization.Controllers.v1.loginController@{Authorization.Controllers.v1.loginController}}
+\doxysubsubsection{\texorpdfstring{Login()}{Login()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1login_controller_a899aba696a910e17e7204b553f39c7e8} 
+async Task$<$ IAction\+Result $>$ Authorization.\+Controllers.\+v1.\+login\+Controller.\+Login (\begin{DoxyParamCaption}\item[{\mbox{[}\+From\+Body\mbox{]} \mbox{\hyperlink{struct_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login}}}]{user\+Login\+\_\+}{}\end{DoxyParamCaption})}
 
 
 
@@ -62,35 +74,24 @@ Genera un token valido para autentificar el usuario que inicia sesión, este tok
 
 
 \begin{DoxyParams}{Parámetros}
-{\em user\+Login\+\_\+} & modelo del tipo \doxylink{class_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login} en formato json requerido\\
+{\em user\+Login\+\_\+} & requerido del tipo \doxylink{struct_authorization_1_1_models_1_1v1_1_1_user_login}{User\+Login} en formato json requerido\\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Devuelve}
-posibles códigos de estatus del request \tabulinesep=1mm
+Respuestas de códigos estándar para solicitudes HTTP \tabulinesep=1mm
 \begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
 \hline
-\cellcolor{\tableheadbgcolor}\textbf{ Código }&\cellcolor{\tableheadbgcolor}\textbf{ Descripción  }\\\cline{1-2}
+\cellcolor{\tableheadbgcolor}\textbf{ Códgigo }&\cellcolor{\tableheadbgcolor}\textbf{ Descripción  }\\\cline{1-2}
 \endfirsthead
 \hline
 \endfoot
 \hline
-\cellcolor{\tableheadbgcolor}\textbf{ Código }&\cellcolor{\tableheadbgcolor}\textbf{ Descripción  }\\\cline{1-2}
+\cellcolor{\tableheadbgcolor}\textbf{ Códgigo }&\cellcolor{\tableheadbgcolor}\textbf{ Descripción  }\\\cline{1-2}
 \endhead
-200 &Token de autentificación de usuario  \\\cline{1-2}
+200 &Token de autentificación de usuario del tipo string  \\\cline{1-2}
 401 &Credenciales incorrectas  \\\cline{1-2}
 400 &{\itshape user\+Login\+\_\+}  es incorrecto o mal formado  \\\cline{1-2}
-500 &Error interno en el proceso  \\\cline{1-2}
+500 &Error interno  \\\cline{1-2}
 \end{longtabu}
 
-
-
-\begin{DoxyCode}{0}
-\DoxyCodeLine{\textcolor{keywordtype}{int}\ c\ =\ \ Math.Add(4,5);}
-\DoxyCodeLine{\textcolor{keywordflow}{if}\ (c\ >\ 10)}
-\DoxyCodeLine{\{}
-\DoxyCodeLine{Console.WriteLine(c);}
-\DoxyCodeLine{\}}
-
-\end{DoxyCode}
- 
 \end{DoxyReturn}

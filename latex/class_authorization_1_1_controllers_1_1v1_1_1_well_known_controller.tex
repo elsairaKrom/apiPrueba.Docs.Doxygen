@@ -1,0 +1,85 @@
+\doxysection{Referencia de la clase Authorization.\+Controllers.\+v1.\+Well\+Known\+Controller}
+\hypertarget{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller}{}\label{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller}\index{Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}}
+
+
+Controlador para JWT.  
+
+
+Diagrama de herencia de Authorization.\+Controllers.\+v1.\+Well\+Known\+Controller\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_ae5f1dcf8f0ab40e93db8de6988de9205}{Well\+Known\+Controller}} (\mbox{\hyperlink{interface_authorization_1_1_services_1_1_i_jwt_settings_provider}{IJwt\+Settings\+Provider}} \+\_\+jwt\+Settings, ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$ logger)
+\begin{DoxyCompactList}\small\item\em Contructor que inicializa la instancia de la clase \doxylink{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller}{Well\+Known\+Controller} . \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_a2c64866ed38c2a3300db2dc95029bdf5}{Get\+Open\+Id\+Configuration}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el id de configuracion. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_a8a1417f3e1361043be280f12c13c7eec}{get\+Jwtkey\+Public}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene la clave JWT. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Controlador para JWT. 
+
+\begin{DoxySeeAlso}{Ver también}
+Microsoft.\+Asp\+Net\+Core.\+Mvc.\+Controller
+
+
+\end{DoxySeeAlso}
+
+
+\label{doc-constructors}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_doc-constructors}
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_ae5f1dcf8f0ab40e93db8de6988de9205}\index{Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}!WellKnownController@{WellKnownController}}
+\index{WellKnownController@{WellKnownController}!Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}}
+\doxysubsubsection{\texorpdfstring{WellKnownController()}{WellKnownController()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_ae5f1dcf8f0ab40e93db8de6988de9205} 
+Authorization.\+Controllers.\+v1.\+Well\+Known\+Controller.\+Well\+Known\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_authorization_1_1_services_1_1_i_jwt_settings_provider}{IJwt\+Settings\+Provider}}}]{\+\_\+jwt\+Settings}{, }\item[{ILogger$<$ \mbox{\hyperlink{class_authorization_1_1_controllers_1_1v1_1_1login_controller}{login\+Controller}} $>$}]{logger}{}\end{DoxyParamCaption})}
+
+
+
+Contructor que inicializa la instancia de la clase \doxylink{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller}{Well\+Known\+Controller} . 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+jwt\+Settings} & El JWT token.\\
+\hline
+{\em logger} & Logger.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_doc-func-members}
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_a8a1417f3e1361043be280f12c13c7eec}\index{Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}!getJwtkeyPublic@{getJwtkeyPublic}}
+\index{getJwtkeyPublic@{getJwtkeyPublic}!Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}}
+\doxysubsubsection{\texorpdfstring{getJwtkeyPublic()}{getJwtkeyPublic()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_a8a1417f3e1361043be280f12c13c7eec} 
+IAction\+Result Authorization.\+Controllers.\+v1.\+Well\+Known\+Controller.\+get\+Jwtkey\+Public (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Obtiene la clave JWT. 
+
+\begin{DoxyReturn}{Devuelve}
+resp\+Uesta HTTP
+\end{DoxyReturn}
+\Hypertarget{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_a2c64866ed38c2a3300db2dc95029bdf5}\index{Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}!GetOpenIdConfiguration@{GetOpenIdConfiguration}}
+\index{GetOpenIdConfiguration@{GetOpenIdConfiguration}!Authorization.Controllers.v1.WellKnownController@{Authorization.Controllers.v1.WellKnownController}}
+\doxysubsubsection{\texorpdfstring{GetOpenIdConfiguration()}{GetOpenIdConfiguration()}}
+{\footnotesize\ttfamily \label{class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller_a2c64866ed38c2a3300db2dc95029bdf5} 
+IAction\+Result Authorization.\+Controllers.\+v1.\+Well\+Known\+Controller.\+Get\+Open\+Id\+Configuration (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Obtiene el id de configuracion. 
+
+\begin{DoxyReturn}{Devuelve}
+Respuesta OK
+\end{DoxyReturn}

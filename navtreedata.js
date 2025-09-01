@@ -24,18 +24,15 @@
 */
 var NAVTREE =
 [
-  [ "DoxyGen Con Github", "index.html", [
-    [ "Paquetes", "namespaces.html", [
-      [ "Lista de paquetes", "namespaces.html", "namespaces_dup" ]
-    ] ],
-    [ "Clases", "annotated.html", [
-      [ "Lista de clases", "annotated.html", "annotated_dup" ],
-      [ "Índice de clases", "classes.html", null ],
-      [ "Jerarquía de clases", "hierarchy.html", "hierarchy" ],
-      [ "Miembros de clases", "functions.html", [
-        [ "Todos", "functions.html", null ],
-        [ "Funciones", "functions_func.html", null ],
-        [ "Propiedades", "functions_prop.html", null ]
+  [ "Singularity Documentation Code", "index.html", [
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ]
   ] ]
@@ -46,6 +43,6 @@ var NAVTREEINDEX =
 "annotated.html"
 ];
 
-var SYNCONMSG = 'pulsar para deshabilitar sincronización';
-var SYNCOFFMSG = 'pulsar para habilitar sincronización';
-var LISTOFALLMEMBERS = 'Lista de todos los miembros';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['weatherforecast_0',['WeatherForecast',['../class_api_ghost_doc_1_1_weather_forecast.html',1,'ApiGhostDoc.WeatherForecast'],['../classapiprueba_1_1_weather_forecast.html',1,'apiprueba.WeatherForecast'],['../class_authorization_1_1_models_1_1v1_1_1_weather_forecast.html',1,'Authorization.Models.v1.WeatherForecast']]],
-  ['weatherforecastcontroller_1',['WeatherForecastController',['../class_api_ghost_doc_1_1_controllers_1_1_weather_forecast_controller.html',1,'ApiGhostDoc.Controllers.WeatherForecastController'],['../classapiprueba_1_1_controllers_1_1_weather_forecast_controller.html',1,'apiprueba.Controllers.WeatherForecastController'],['../class_authorization_1_1_controllers_1_1v1_1_1_weather_forecast_controller.html',1,'Authorization.Controllers.v1.WeatherForecastController']]]
+  ['ijwtsettingsprovider_0',['IJwtSettingsProvider',['../interface_authorization_1_1_services_1_1_i_jwt_settings_provider.html',1,'Authorization::Services']]]
 ];

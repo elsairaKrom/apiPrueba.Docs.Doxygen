@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['login_0',['login',['../class_authorization_1_1_controllers_1_1v1_1_1login_controller.html#ace9c6e24a554cc4e8aceae6723ddcff4',1,'Authorization::Controllers::v1::loginController']]],
-  ['logincontroller_1',['loginController',['../class_authorization_1_1_controllers_1_1v1_1_1login_controller.html',1,'Authorization.Controllers.v1.loginController'],['../class_authorization_1_1_controllers_1_1v1_1_1login_controller.html#a9ff94ed4e6cb60f8f0c6e9210166c829',1,'Authorization.Controllers.v1.loginController.loginController()']]]
+  ['getjwtkeypublic_0',['getJwtkeyPublic',['../class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller.html#a8a1417f3e1361043be280f12c13c7eec',1,'Authorization::Controllers::v1::WellKnownController']]],
+  ['getopenidconfiguration_1',['GetOpenIdConfiguration',['../class_authorization_1_1_controllers_1_1v1_1_1_well_known_controller.html#a2c64866ed38c2a3300db2dc95029bdf5',1,'Authorization::Controllers::v1::WellKnownController']]],
+  ['getprofile_2',['getProfile',['../class_authorization_1_1_controllers_1_1v1_1_1login_controller.html#a109753c44d0ba33d98406875b674e3c0',1,'Authorization::Controllers::v1::loginController']]]
 ];
